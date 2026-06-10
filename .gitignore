@@ -1,0 +1,97 @@
+# Build directories
+build/
+cmake-build-debug/
+cmake-build-release/
+out/
+dist/
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+*.cmake
+CMakeLists.txt.user
+
+# Generated makefiles
+Makefile
+*.make
+
+# Compiled objects and libraries
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+*.app
+*.exe.a
+
+# Test executables
+*_test
+*Test
+*test.exe
+googletest-*
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*~
+.DS_Store
+*.user
+*.pro.user
+compile_commands.json
+
+# Dependencies
+vcpkg_installed/
+conan/
+*.lock
+
+# Debugging
+*.dSYM/
+*.su
+*.gch
+*.pch
+
+# Doxygen
+docs/html/
+docs/latex/
+docs/man/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# Misc
+.clangd/
+.ccls-cache/
+*.log
+
+# AI agent / IDE planning files
+implementation_plan.md
+walkthrough.md
+task.md
+PROJECT_SUMMARY.md
+BUILD_VERIFICATION.md
+build_output.txt
+.gemini/
+*.gemini
+
+# Exclude CMakeLists files
+CMakeLists.txt
+**/CMakeLists.txt
+
+# Exclude all markdown files except README.md
+*.md
+**/*.md
+!README.md
+!**/README.md
